@@ -1,0 +1,35 @@
+	body {
+          
+		}
+      
+      pre {
+          tab-size: 8;
+      }
+      
+    @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse {
+              top:80px;
+              bottom:0;
+              left:0;
+              width:100%;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+	}
+	.header-color{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a144f+0,a7cfdf+91,a7cfdf+100 */
+	background: #337ab7;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a144f', endColorstr='#a7cfdf',GradientType=0 ); /* IE6-9 */
+	margin-bottom: 0px !important;
+	height:40px;
+}
